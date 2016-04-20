@@ -92,6 +92,9 @@ if g:simple_todo_map_keys
   nmap <Leader>X <Plug>(simple-todo-mark-as-undone)
   vmap <Leader>X <Plug>(simple-todo-mark-as-undone)
   imap <Leader>X <Plug>(simple-todo-mark-as-undone)
+
+  command! -nargs=0 TODOToggle call simple_todo#ToggleWindow()
+
 endif
 
 " }}}
